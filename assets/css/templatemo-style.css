@@ -635,25 +635,6 @@ figure.snip1321.hover:after {
 section.contact-me {
     border-bottom: none;
 }
-
-#contact input {
-    background-color: rgba(250,250,250,0.1);
-    border: 1px solid rgba(250,250,250,1);
-    border-radius: 0px;
-    margin-bottom: 30px;
-    color: #fff;
-    font-size: 14px;
-    height: 40px;
-    line-height: 40px;
-    width: 100%;
-    padding-left: 15px;
-}
-
-#contact input:focus {
-    outline: none;
-    box-shadow: none;
-}
-
 #contact textarea {
     background-color: rgba(250,250,250,0.1);
     border: 1px solid rgba(250,250,250,1);
@@ -666,15 +647,6 @@ section.contact-me {
     line-height: 40px;
     width: 100%;
     padding-left: 15px;
-}
-
-#contact textarea:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-#contact {
-    text-align: center;
 }
 
 @media screen and (max-width: 1680px) {
