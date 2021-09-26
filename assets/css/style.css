@@ -1,11 +1,3 @@
-/*
-
-Reflux Template
-
-https://templatemo.com/tm-531-reflux
-
-*/
-
 @import url(fontawesome.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
 body {
@@ -297,12 +289,14 @@ html {
 .section-heading {
     text-align: center;
     padding: 50px 45px;
+    text-shadow: 2px 2px #0000006e;
 }
 
 .section-heading h2 {
     font-size: 32px;
     font-weight: 700;
     color: #fff;
+    text-shadow: 2px 2px #0000006e;
 }
 
 .section-heading .line-dec {
@@ -310,6 +304,7 @@ html {
     height: 3px;
     background-color: #23073b;
     margin: 10px auto;
+    
 }
 
 .section-heading span {
@@ -317,6 +312,7 @@ html {
     font-size: 16px;
     color: #fff;
     letter-spacing: 0.5px;
+    text-shadow: 2px 2px #0000006e;
 }
 
 
@@ -467,9 +463,9 @@ button:hover {
 }
 
 
-/* My Work */
+/* Meus Jogos */
 
-section.my-work .section-heading {
+section.MeusJogos .section-heading {
     text-align: center;
     padding: 80px 45px 50px 45px;
 }
