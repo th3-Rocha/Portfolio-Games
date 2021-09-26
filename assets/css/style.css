@@ -296,7 +296,7 @@ html {
 
 .section-heading {
     text-align: center;
-    padding: 80px 45px;
+    padding: 50px 45px;
 }
 
 .section-heading h2 {
@@ -779,5 +779,8 @@ section.contact-me {
     }
     .isotope-toolbar {
         margin-bottom: 20px;
+    }
+    .email{
+        color: red;
     }
 }

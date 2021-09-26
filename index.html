@@ -53,26 +53,26 @@ Rocha Lee o melhor
             <div class="social-network">
               <ul class="soial-icons">
                 <li>
-                  <a href="https://www.facebook.com/profile.php?id=100025418982097"
+                  <a href="https://www.facebook.com/profile.php?id=100025418982097" target="_blank"
                     ><i class="fa fa-facebook"></i
                   ></a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/Da_Rocha01"><i class="fa fa-twitter"></i></a>
+                  <a href="https://twitter.com/Da_Rocha01" target="_blank"><i class="fa fa-twitter"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                  <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-dribbble"></i></a>
+                  <a href="#" target="_blank"><i class="fa fa-dribbble"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-rss"></i></a>
+                  <a href="#" target="_blank"><i class="fa fa-rss"></i></a>
                 </li>
               </ul>
             </div>
             <div class="copyright-text">
-              <p>Printf("Hello World!!")  </p>
+              <p>Printf("Hello, World!!")  </p>
             </div>
           </div>
         </div>
@@ -84,7 +84,7 @@ Rocha Lee o melhor
             <h2>Sobre Mim</h2>
             <div class="line-dec"></div>
             <span
-              >Sou Brasileiro nascido em Natal,RN. Faço Bacharel em Tecnologia da Informação Na UFRN. Possuo uma paixão por jogos eletronicos e pretendo me torna um desenvolvedor de jogos. </span
+              >Olá! Faço Bacharelado em Tecnologia da Informação Na UFRN.<br>Possuo uma paixão por jogos eletrônicos e pretendo me torna um desenvolvedor de jogos.</span
             >
           </div>
           <div class="left-image-post">
@@ -356,7 +356,15 @@ Rocha Lee o melhor
             <div class="line-dec"></div>
             <span>Caso queira falar comigo, Abaixo esta meu Email para contato! </span>
             <div class="section-heading"></div> 
-            <span>murilorocha537@gmail.com</span>
+            <span style="
+              font-size: 25px;
+              border-style: solid;
+              border-color: rgba(255, 255, 255, .5);
+              border-radius: 1.5em 1.5em 1.5em 1.5em;
+              padding: 0.5em 1em;
+              background: rgba(255, 255, 255, .2);
+              box-shadow: 0px 5px 5px rgba(0,0,0,.3);
+              ">murilorocha537@gmail.com</span>
           </div>
         </div>
       </section>
@@ -382,7 +390,7 @@ Rocha Lee o melhor
           reqSection = $(".section").filter(
             '[data-section="' + direction + '"]'
           ),
-          reqSectionPos = reqSection.offset().top - 0;
+          reqSectionPos = reqSection.offset().top - 200;
 
         if (isAnimate) {
           $("body, html").animate(
